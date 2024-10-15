@@ -12,5 +12,6 @@ body {
     font-weight: bold;       /* Bold text */
     margin: 20px 0;        /* Space above and below the box */
     background-color: blue;
+    text-align: center;
 }
 
