@@ -1,6 +1,6 @@
 body {
   font-family: Courier New;
-  background-color: Orange; /*#A9A9A9*/
+  background-color: #A9A9A9;
 }
 
 .title-box {
@@ -11,7 +11,7 @@ body {
     font-size: 24px;        /* Font size */
     font-weight: bold;       /* Bold text */
     margin: 20px 0;        /* Space above and below the box */
-    background-color: blue;
+    background-color: #242322;
     text-align: center;
 }
 
