@@ -1,3 +1,6 @@
-body {
-	font-family: Barlow;
-	}
+.forum-regular {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
