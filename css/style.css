@@ -1,7 +1,6 @@
-@font-face {
-font-family: "Forum";
-src: url("https://fonts.gstatic.com/s/forum/v18/6aey4Ky-Vb8Ew8IcOpIq3g.woff2") format("woff2")
-  }
+body {
+  font-family: Courier New;
+}
 <body style="background-color: #A9A9A9;">
 
 
