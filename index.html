@@ -1,21 +1,66 @@
 <!DOCTYPE html>
-<html>
-<header>
- <title>Main Menu</title>
- <link rel="stylesheet" href="css/style.css">
-</header>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Main Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #A9A9A9;
+            text-align: center; /* Center all text */
+        }
+        .title-box {
+            border: 2px solid black; /* Box border */
+            padding: 20px;          /* Space inside the box */
+            background-color: #424140; /* Background color */
+            color: white; /* Text color */
+            margin: 20px 0; /* Space above and below the box */
+        }
+        ol {
+            list-style-type: none; /* Remove default list styling */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow wrapping to next row */
+            justify-content: center; /* Center the items */
+            margin: 0; /* Remove margin */
+        }
+        li {
+            margin: 10px; /* Space between images */
+        }
+        img {
+            width: 250px; /* Set image width */
+            height: 250px; /* Set image height */
+            border: 2px solid #333; /* Optional: border for images */
+        }
+    </style>
+</head>
 <body>
- <h1 class="title-box">Mes"html" </h1>
- <h2>Bienvenu à ma Page Web!</h2>
- <ol>
-   <li><a href="poeme.html">Mon poeme</a></li>
-    <a href="poeme.html"><img src="https://i.pinimg.com/736x/02/df/32/02df328d60e0ac826a489b40f8295a27.jpg" alt="HTML tutorial" style="width:500px;height:500px;"></a>
-   <li><a href="voyage.html">Mon voyage</a></li>
-    <a href="voyage.html"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/75/19/7c/sunrise-beach-resort.jpg?w=700&h=-1&s=1" alt="HTML tutorial" style="width:500px;height:500px;"></a>
-   <li><a href="menu.html">Mon menu</a></li>
-    <a href="menu.html"><img src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover/di_noodle.jpg" alt="HTML tutorial" style="width:500px;height:500px;"></a>
-   <li><a href="bibliographie.html">Mon bibliographie</a></li>
-    <a href="bibliographie.html"><img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg" style="width:500px;height:500px;"></a>
- </ol>
+
+<h1 class="title-box">Mes "HTML"</h1>
+<h2>Bienvenu à ma Page Web!</h2>
+
+<ol>
+    <li>
+        <a href="poeme.html">Mon poeme</a>
+        <br>
+        <a href="poeme.html"><img src="https://i.pinimg.com/736x/02/df/32/02df328d60e0ac826a489b40f8295a27.jpg" alt="Mon poème"></a>
+    </li>
+    <li>
+        <a href="voyage.html">Mon voyage</a>
+        <br>
+        <a href="voyage.html"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/75/19/7c/sunrise-beach-resort.jpg?w=700&h=-1&s=1" alt="Mon voyage"></a>
+    </li>
+    <li>
+        <a href="menu.html">Mon menu</a>
+        <br>
+        <a href="menu.html"><img src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover/di_noodle.jpg" alt="Mon menu"></a>
+    </li>
+    <li>
+        <a href="bibliographie.html">Mon bibliographie</a>
+        <br>
+        <a href="bibliographie.html"><img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg" alt="Ma bibliographie"></a>
+    </li>
+</ol>
+
 </body>
 </html>
